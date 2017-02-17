@@ -2,9 +2,9 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=3.1.0
+ENV VERSION=0.1.6
 
-RUN gem install ec2ssh --version ${VERSION} --no-format-exec
+RUN gem install EC2ssh --version ${VERSION} --no-format-exec
 
 WORKDIR /tmp
 
